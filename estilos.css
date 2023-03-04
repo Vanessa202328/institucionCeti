@@ -1,0 +1,133 @@
+*{
+    margin:0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizzing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    
+    background: #3b83bd;
+}
+
+.navegacion{
+    width: 1000px;
+    margin: 30px auto;
+    background: #fff;
+}
+.navegacion ul{
+    list-style: none;
+}
+
+
+.menu > li{
+    position: relative;
+    display: inline-block;
+}
+
+.menu > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: #313535;
+    font-family: 'Open sans';
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    color: #CE7D35;
+    transition: all .3s;
+}
+
+/*SUBMENU*/
+
+
+.submenu{
+    position: absolute;
+    background: #333333;
+    width: 120%;
+    visibility: none;
+    opacity:0 ;
+    transition: opacity 1.5s;
+}
+.submenu li a{
+    display: block;
+    width: 120%;
+    padding: 15px;
+    color: rgb(10, 10, 10);
+    font-family: 'Open sans';
+    text-decoration: hidden;
+}
+
+.menu li:hover .submenu{
+    visibility: visible;
+    opacity: 1;
+}
+
+#centro{
+    background: rgb(10, 10, 10);
+    width: 500px;
+    margin: 0px auto;
+    
+}
+
+/*IMAGEN PRONTAL PRESENTACION*/
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:url('img/banca2.jpg') no-repeat;
+    background-size: cover;
+}
+
+/*BOTONES*/
+.boton{
+    background-color: #3d963d;
+    color: white;
+    font-size: 20px;
+    padding: 20px 10px;
+    width: 200px;
+    border: 2px solid rgb(0, 204, 255);
+    
+    border-radius: 12px;
+    -webkit-transition-duration: 0.3s;
+    box-shadow: 0px 5px 10px 0px #61deeb;
+    text-align: center;
+    position: relative;
+}
+
+.boton:hover{
+    background-color: #7896f4;
+    color: yellow;
+    text-align: center;
+}
+.botones
+{
+    text-align: center;
+}
+.botones1
+{
+    text-align: center;
+}
+.botones2
+{
+    text-align: center;
+}
+.botones3
+{
+    text-align: center;
+}
+.botones4
+{
+    text-align: center;
+}
+.botones5
+{
+    text-align: center;
+}
+
+
+

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!---REGISTRO-->   
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    
+    <link rel="shortcut icon" href="img/ibm.png"> <!---ICONO-->
+    <title>REGISTRARSE </title><!---Nombre Pagina-->
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="css/estilos_boton.css" media="all">
+</head>
+
+<body>
+    <!---MENU-->  
+    <header> 
+        <nav class="navegacion">
+            <ul class="menu">
+                <li><a href="INDEX.html">INICIO</a></li>
+                <li><a href="registrarse.html">REGRISTRARSE</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <!---REGISTRO DE USUARIOS--> 
+    <center>
+            <form name ="form" action="Registrarse.php" method="post">
+
+                
+
+                <h2 class="titulo">! REGISTRAR ALUMNOS NUEVO !</h2>
+        
+               
+           
+            <center> Id_usuario: <input type="text" name="Id_usuario"></center>
+            <center>Matricula: <input type="text" name="Matricula"></center>
+            <center>Nombre:    <input type="text" name="Nombre"></center>
+            <center>Apell&iacute;dosPaterno: <input type="text" name="ApellidoPaterno"></center>
+            <center>ApellidosMaterno: <input type="text" name="ApellidoMaterno"></center>
+            <center>Turno: <input type="text" name="Turno"></center>
+            <center>TipoUsuario: <input type="text" name="TipoUsuario" ></center>
+            <center> Password: <input type="password" name="Passwoord"> </center>
+            <center> Confirmacion de Password:<input type="password" name="Password2"></center>
+
+                <!---BOTONES--> 
+                    <input class="boton" type="submit" value="Registrar">
+                    <input class="boton" type="reset" value="Borrar" name="borrar"> 
+                
+        </form>   
+        </div>
+    </center>
+
+    
+
+</body>
+</html>

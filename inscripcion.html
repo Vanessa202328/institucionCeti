@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!---REGISTRO-->   
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    
+    <link rel="shortcut icon" href="img/ibm.png"> <!---ICONO-->
+    <title>Incripcion </title><!---Nombre Pagina-->
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="css/estilos_boton.css" media="all">
+</head>
+
+<body>
+    <!---MENU-->  
+    <header> 
+        <nav class="navegacion">
+            <ul class="menu">
+                <li><a href="INDEX.html">INICIO</a></li>
+                <li><a href="inscripcion.html">Incripsion</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <!---REGISTRO DE USUARIOS--> 
+    <center>
+            <form name ="form" action="inscripcion.php" method="post">
+
+                
+
+                <h2 class="titulo">! Inscripcion !</h2>
+        
+               
+    
+            <center>id: <input type="text" name="id_incripcion"></center>
+            <center>Matricula: <input type="text" name="Matricula"></center>
+            <center>Asignatura:    <input type="text" name="Asignatura"></center>
+            <center>Grupo: <input type="text" name="Grupo"></center>
+            <center>Profesor: <input type="text" name="Profesor"></center>
+            <center>Turno: <input type="text" name="Turno"></center>
+            <center>Semestre: <input type="text" name="Semestre" ></center>
+            <center> Estatus: <input type="text" name="Estatus"> </center>
+
+                <!---BOTONES--> 
+                    <input class="boton" type="submit" value="RegistrarInscripcion">
+                    <input class="boton" type="reset" value="Borrar" name="borrar"> 
+                
+        </form>   
+        </div>
+    </center>
+
+</body>
+</html>
